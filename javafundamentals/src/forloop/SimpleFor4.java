@@ -1,4 +1,4 @@
-package javafundamentals;
+package forloop;
 
 public class SimpleFor4 {
 	public static void main(String[] args) {
