@@ -1,4 +1,4 @@
-package javafundamentals;
+package ifstatements;
 
 class Tester1 {
 

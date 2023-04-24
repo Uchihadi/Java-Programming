@@ -1,4 +1,4 @@
-package javafundamentals;
+package switchCase;
 
 public class switchCaseExample {
 public static void main(String[] args) {

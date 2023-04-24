@@ -1,7 +1,7 @@
-package javafundamentals;
+package ifstatements;
 
 //Observe the output for different values of marks  
-class Marks {
+class Tester {
 	public static void main(String[] args) {
 		int marks = 90;
 

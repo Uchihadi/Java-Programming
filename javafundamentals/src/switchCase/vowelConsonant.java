@@ -1,4 +1,4 @@
-package javafundamentals;
+package switchCase;
 
 public class vowelConsonant {
 	public static void main(String[] args) {

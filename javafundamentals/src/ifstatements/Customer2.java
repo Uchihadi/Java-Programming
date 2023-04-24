@@ -1,4 +1,4 @@
-package javafundamentals;
+package ifstatements;
 
 public class Customer2 {
 	public static void main(String[] args) {
