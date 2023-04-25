@@ -2,6 +2,7 @@ package assignment1;
 
 import java.util.Scanner;
 
+//Selection Control Structure 1
 public class SameNum {
 	public static void main(String[] args) {
 		// Implement your code here
