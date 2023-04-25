@@ -17,7 +17,7 @@ public class Customer { // Instance Variables
 	}
 }
 
-// To execute and invoke the Method above using Tester
+// To execute and invoke the Method
 class Tester {
 	public static void main(String[] args) {
 
