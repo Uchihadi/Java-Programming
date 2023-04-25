@@ -1,4 +1,4 @@
-package learnJava;
+package javafundamentals;
 
 public class SecondProgram 
 {

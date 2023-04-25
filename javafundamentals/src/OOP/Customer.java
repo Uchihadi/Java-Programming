@@ -23,5 +23,15 @@ public class Customer {
 		}
 		System.out.println("The total cost to be paid is " + totalCost);
 	}
+
+	public void setCustomerName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setContactNumber(long l) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
