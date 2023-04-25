@@ -1,29 +1,29 @@
 package arrays;
 
-class Restaurant {
-	private String restaurantName;
-	private long restaurantContact;
+public class Restaurant {
+	private String restuarnatName;
+	private long[] restaurantContacts;
 	private String restaurantAddress;
 	private float rating;
 	
-	public Restaurant(String name, long restaurantContact, String restaurantAddress, float rating) {
-	this.restaurantName = name;
-	this.restaurantContact = restaurantContact;
+	public Restaurant(String name, long[] restaurantContacts, String restaurantAddress, float rating) {
+	this.restuarnatName = name;
+	this.restaurantContacts = restaurantContacts;
 	this.restaurantAddress = restaurantAddress;
 	this.rating = rating;
 	}
 	
-	public String getRestaurantName() {
-		return restaurantName;
+	public String getRestuarnatName() {
+		return restuarnatName;
 	}
-	public void setRestaurantName(String restaurantName) {
-		this.restaurantName = restaurantName;
+	public void setRestuarnatName(String restuarnatName) {
+		this.restuarnatName = restuarnatName;
 	}
-	public long getRestaurantContact() {
-		return restaurantContact;
+	public long[] getRestaurantContact() {
+		return restaurantContacts;
 	}
-	public void setRestaurantContact(long restaurantContact) {
-		this.restaurantContact = restaurantContact;
+	public void setRestaurantContact(long[] restaurantContacts) {
+		this.restaurantContacts = restaurantContacts;
 	}
 	public String getRestaurantAddress() {
 		return restaurantAddress;
@@ -37,14 +37,16 @@ class Restaurant {
 	public void setRating(float rating) {
 		this.rating = rating;
 	}
-	
 	public void displayRestaurantDetails() {
 	System.out.println("Displaying restaurant details \n***************");
-	System.out.println("Restaurant Name : "+this.restaurantName);
+	System.out.println("Restaurant Name : "+this.restuarnatName);
 	System.out.println("Restaurant Rating : "+this.rating);
-	System.out.println("Restaurant Contact : "+this.restaurantContact);
+	System.out.println("Restaurant Contacts:");
+	for (int index = 0; index < this.restaurantContacts.length; index++)
+		System.out.println(this.restaurantContacts[index]);
 	System.out.println("Restaurant Address : "+this.restaurantAddress);
 	System.out.println();
 	}
 }
+
 

@@ -3,9 +3,8 @@ package arrays;
 public class Tester {
 	public static void main(String[] args) {
 		long[] restaurantContacts = { 9992346725L, 9992346726L, 9992346727L };
-		for (int index = 0; index < restaurantContacts.length; index++) {
-			// Accessing element at position index
-			System.out.println(restaurantContacts[index]);
-		}
+		Restaurant restaurant1 = new Restaurant("SwiftFood",
+				restaurantContacts, "Carolina Street, Springfield, 62702", 4.1f);
+		restaurant1.displayRestaurantDetails();
 	}
 }
